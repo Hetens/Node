@@ -1,0 +1,19 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hetens/Node.git"
+  },
+  "author": "Hetansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hetens/Node/issues"
+  },
+  "homepage": "https://github.com/Hetens/Node#readme"
+}
