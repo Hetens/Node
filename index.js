@@ -12,6 +12,7 @@ const main =async()=>{
   
   });
 
+const Save =async()=>{
   const productsModel=mongoose.model('products',productSchema);
   //adding products manually
   const data = new productsModel({
@@ -26,5 +27,19 @@ const main =async()=>{
   console.log(result);
 }
 
+const Update=async()=>{
+  const Product = mongoose.model('products',productSchema);
+  let data = await Product.updateOne(
+    {
+      name:"m7"
+    },
+    {
+      $set:{price:700}
+    }
+  )
+  console.log(data);
+}
+
+}
 main().catch(err => console.log(err));
 
